@@ -1,8 +1,3 @@
-Sure! Here's a complete **monolithic `README.md` file** that captures everything in one place—including prerequisites, structure, Terraform commands, best practices, and references—for a project that teaches Terraform across AWS, Azure, and GCP.
-
----
-
-```markdown
 # 🌍 Terraform Multi-Cloud Learning Project
 
 Welcome to the **Terraform Multi-Cloud Learning Project**. This repository is designed to help learners understand how to use [Terraform](https://www.terraform.io/) to provision infrastructure on the three major cloud platforms:
@@ -16,9 +11,7 @@ This single repository includes foundational Terraform templates and best practi
 ---
 
 ## 📁 Project Structure
-
-```
-
+````
 terraformscrips/
 ├── aws/
 │   ├── project1/
@@ -176,17 +169,4 @@ Here are some recommended practices when writing and using Terraform:
 
 ---
 
-## 🤝 Contributing
 
-Contributions are welcome! Feel free to fork this repository, improve the configurations, or add examples. Then submit a pull request with your changes.
-
----
-
-## 🛡 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-```
-
-Let me know if you’d like this turned into a downloadable file or want example configs for [AWS](f), [Azure](f), or [GCP](f).
-```
