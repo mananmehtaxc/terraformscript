@@ -1,0 +1,15 @@
+Use Case: Intelligent Multimodal Customer Support Chatbot
+Description:
+Build a chatbot that can understand customer text or voice queries, analyze sentiment, translate languages, recognize images sent by customers, and respond naturally using generative AI.
+
+🔹 Components Involved
+Amazon Lex — Handles conversational chat interface (text/voice)
+Amazon Transcribe — Converts customer speech to text
+Amazon Comprehend — Analyzes sentiment and extracts key info from text
+Amazon Translate — Translates customer messages into the bot’s language (and back)
+Amazon Rekognition — Analyzes images customers send (e.g., product photos)
+Amazon Bedrock — Generates natural language responses using foundation models
+Amazon Polly — Converts text responses to speech (voice replies)
+Lambda — Orchestrates the flow and calls the AI services
+DynamoDB — Stores chat logs and session data
+API Gateway — Exposes the chatbot API to clients
