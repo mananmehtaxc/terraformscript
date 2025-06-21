@@ -1,0 +1,5 @@
+- A VPC with a public subnet
+- Internet access
+- A Lambda function
+- A DynamoDB table
+- IAM roles/policies for Lambda to access DynamoDB
