@@ -1,0 +1,12 @@
+TODO
+- Install terraform
+- Authenticate to AWS
+- Hello world tf config
+- Init, Plan, Apply, Destroy
+
+Basic sequence
+* terraform init – Initializes a working directory.
+* terraform plan – Shows what Terraform will do (creates an execution plan).
+* terraform apply – Applies the changes required to reach the desired state.
+* terraform destroy – Destroys infrastructure managed by Terraform.
+* terraform refresh – Updates the state file with real-world resource changes.

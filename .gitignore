@@ -1,0 +1,29 @@
+general/note.txt
+
+# Ignore terraform files
+# Terraform state files (can contain secrets)
+*.tfstate
+*.tfstate.backup
+
+# Terraform crash logs
+crash.log
+
+# Terraform CLI configuration files
+.terraform/
+
+# Terraform plan output
+*.tfplan
+
+# Override files (often local only)
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local .terraformrc or CLI config file (if in repo)
+.terraformrc
+terraform.rc
+
+.DS_Store

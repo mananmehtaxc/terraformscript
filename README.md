@@ -2,49 +2,25 @@
 
 Welcome to the **Terraform Multi-Cloud Learning Project**. This repository is designed to help learners understand how to use [Terraform](https://www.terraform.io/) to provision infrastructure on the three major cloud platforms:
 
+## What is Terraform? 
+Terraform is an infrastructure-as-code tool developed by HashiCorp that allows users to define and manage cloud and on-premises resources using configuration files. It enables the automation of infrastructure provisioning and management, making it easier to create, change, and version infrastructure safely and efficiently.
+
 - 🟠 **AWS**
 - 🔵 **Azure**
 - 🟡 **Google Cloud (GCP)**
 
 This single repository includes foundational Terraform templates and best practices tailored to each cloud provider.
 
+Terraform Registry:
+https://registry.terraform.io
+
+User registry to find provider specficis resources.
 ---
 
-## 📁 Project Structure
-````
-terraformscrips/
-├── aws/
-│   ├── project1/
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   ├── outputs.tf
-│   ├── project3/
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   ├── outputs.tf
-├── azure/
-│   ├── project1/
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   ├── outputs.tf
-│   ├── project3/
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   ├── outputs.tf
-├── gcp/
-│   ├── project1/
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   ├── outputs.tf
-│   ├── project3/
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   ├── outputs.tf
-└── README.md
+## 🙌 Credits & Inspirations
 
-````
+This project was inspired by and uses learnings from the excellent [DevOps Directive Terraform Course](https://github.com/sidpalas/devops-directive-terraform-course) by [@sidpalas](https://github.com/sidpalas). It's highly recommended for anyone learning Terraform with AWS.
 
-Each folder contains standalone Terraform configuration files for provisioning cloud infrastructure on the respective provider.
 
 ---
 

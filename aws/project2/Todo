@@ -1,0 +1,11 @@
+- TF config
+- backend + provider config
+- EC2 instances
+- S3 Bucket
+- Default aws VPC
+    Subnet
+- Security groups + rules
+- Application load balancer
+    ALB target group + attachment
+- Route 53 zone + record
+- RDS instance
